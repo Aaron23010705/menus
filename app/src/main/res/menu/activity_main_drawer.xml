@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_gallery" />
+
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_slideshow" />
+
+        <item
+            android:id="@+id/fragment_Informacion"
+            android:icon="@drawable/baseline_info_24"
+            android:title="Information" />
+
+        <item
+            android:id="@+id/fragment_perfil"
+            android:icon="@drawable/baseline_account_circle_24"
+            android:title= "Profile" />
+
+        <item
+            android:id="@+id/fragment_recursos"
+            android:icon="@drawable/baseline_handyman_24"
+            android:title= "Resources" />
+
+        <item
+            android:id="@+id/fragment_notificaciones"
+            android:icon="@drawable/baseline_circle_notifications_24"
+            android:title="Notifications" />
+
+
+        <item
+            android:id="@+id/fragment_aplicaciones"
+            android:icon="@drawable/baseline_apps_24"
+            android:title="Aplications" />
+
+        <item
+            android:id="@+id/fragment_seguridad"
+            android:icon="@drawable/baseline_do_not_touch_24"
+            android:title="Security" />
+
+        <item
+            android:id="@+id/fragment_ayuda"
+            android:icon="@drawable/baseline_help_24"
+            android:title="Help" />
+
+        <item
+            android:id="@+id/fragment_amigos"
+            android:icon="@drawable/baseline_person_add_24"
+            android:title="Friends" />
+
+
+
+
+    </group>
+</menu>
